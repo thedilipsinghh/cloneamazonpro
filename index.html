@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .manu {
+            border-radius: 0.5rem;
+            transition: 300ms;
+            margin: 1rem 0;
+        }
+
+        .manu:hover {
+            background-color: white;
+            cursor: pointer;
+            transform: scale(1.1);
+
+        }
+    </style>
+    <link rel="manifest" href="manifest.json">
+
+</head>
+
+
+
+<body>
+    <!--search start  -->
+    <div class="collapse" id="search">
+        <div class="alert alert-primary mb-0">
+            <div class="container">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <button type="button" class="btn btn-primary">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                <h5 class="my-4">Quick Links</h5>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a class="d-block my-3" href="">Link 1</a>
+                        <a class="d-block my-3" href="">Link 2</a>
+                        <a class="d-block my-3" href="">Link 3</a>
+                        <a class="d-block my-3" href="">Link 4</a>
+                        <a class="d-block my-3" href="">Link 5</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a class="d-block my-3" href="">Link 1</a>
+                        <a class="d-block my-3" href="">Link 2</a>
+                        <a class="d-block my-3" href="">Link 3</a>
+                        <a class="d-block my-3" href="">Link 4</a>
+                        <a class="d-block my-3" href="">Link 5</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img class="img-fluid"
+                                            src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/K/6K9J2PA-1_T1680319176.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h6>featured item</h6>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                        <button type="button" class="btn btn-outline-primary">shop now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--search end  -->
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Amazon Pro+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown">
+                    Manu
+                </button>
+                <ul class="dropdown-menu w-100 p-0">
+                    <div class="alert alert-primary mb-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex align-item-center gap-4 border border-light p-3 manu">
+                                        <i class="bi bi-laptop display-3"></i>
+                                        <div>
+                                            <h6>Laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex align-item-center gap-4 border border-light p-3 manu">
+                                        <i class="bi bi-laptop display-3"></i>
+                                        <div>
+                                            <h6>Laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex align-item-center gap-4 border border-light p-3 manu">
+                                        <i class="bi bi-laptop display-3"></i>
+                                        <div>
+                                            <h6>Laptop</h6>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <button data-bs-toggle="collapse" data-bs-target="#search " type="button" class="btn btn-outline-light">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button data-bs-toggle="offcanvas" data-bs-target="#cart" type="button" class="btn btn-outline-light">
+                    <i class="bi bi-cart"></i>
+                </button>
+                <button data-bs-toggle="offcanvas" data-bs-target="#login" type="button" class="btn btn-light">
+                    Login <i class="bi bi-lock"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!--curousel start-->
+    <div class="curousel m-5 slide" data-bs-ride="carousel" data-bs-interval="1000">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6  text-end">
+                        <img class="img-fluid"
+                            src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h6>FAKE PRODUCTS</h6>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt temporibus, quia illum
+                            laborum harum cum. Possimus repellendus hic corporis a sapiente est ut, aliquam ducimus,
+                            veniam magnam eos veritatis. Cum.</P>
+                        <button type="buttons" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6  text-end">
+                        <img class="img-fluid"
+                            src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h6>FAKE PRODUCTS</h6>
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate aut corrupti saepe dicta
+                            itaque, beatae, amet optio, non similique veniam ratione! Quos, iure! Atque perspiciatis
+                            suscipit repudiandae quidem tempore nihil?</P>
+                        <button type="buttons" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6  text-end">
+                        <img class="img-fluid"
+                            src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>FAKE PRODUCTS</strong>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae deleniti quaerat eius
+                            consequatur architecto ipsam cum ratione laborum? Deleniti amet tempore aliquid! Omnis nemo
+                            placeat, quasi laboriosam pariatur expedita.</P>
+                        <button type="buttons" class="btn btn-primary">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--curousel end-->
+
+
+    <!-- feature start -->
+    <div class="bg-primary mt-5 p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="d-flex align-items-center gap-3 text-light">
+                        <i class="bi bi-credit-card display-4"></i>
+                        <div>
+                            <h4>Secure Checkout</h4>
+                            <span>Lorem, ipsum.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="d-flex align-items-center gap-3 text-light">
+                        <i class="bi bi-credit-card display-4"></i>
+                        <div>
+                            <h4>Secure Checkout</h4>
+                            <span>Lorem, ipsum.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="d-flex align-items-center gap-3 text-light">
+                        <i class="bi bi-credit-card display-4"></i>
+                        <div>
+                            <h4>Secure Checkout</h4>
+                            <span>Lorem, ipsum.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature end -->
+
+    <!-- card start -->
+    <div class="container mt-5 mb-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <span class="display-5">featured Products</span>
+            <button type="button" class="btn btn-primary btn-sm">View All</button>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid my-1"
+                                    src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                                    alt="">
+                                <img class="img-fluid my-1"
+                                    src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/M/7M659PA-1_T1683807084.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-footer alert alert-primary mb-0">
+                            <div class="d-flex justify-content-between">
+                                <span>FAKE PRODUCTS</span>
+                                <strong>Starting from 45,000</strong>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100 mt-2 btn-lg">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class=" mb-2 d-flex justify-content-between">
+                            <span class="badge bg-success">Most Popular</span>
+                            <i class="bi bi-heart text-danger"></i>
+                        </div>
+                        <img class="img-fluid"
+                            src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/K/6K9J2PA-1_T1680319176.png"
+                            alt="">
+                        <p class="text-center">laptops</p>
+                        <p class="text-center">Starting Price 49,999</p>
+                        <p class="text-center">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- card end -->
+
+
+
+
+    <!-- cart start -->
+    <div class="offcanvas offcanvas-start" id="cart">
+        <div class="offcanvas-header bg-primary text-light">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary mb-0">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid"
+                                src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/K/6K9J2PA-1_T1680319176.png"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>HP 15s Laptop</h6>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>84,099</strong>
+                        </div>
+                    </div>
+                    <p class="text-success text-center">you have saved 4555/-</p>
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-primary">Left</button>
+                        <button type="button" class="btn btn-outline-primary">Middle</button>
+                        <button type="button" class="btn btn-outline-primary">Right</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid"
+                                src="https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/K/6K9J2PA-1_T1680319176.png"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>HP 15s Laptop</h6>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>84,099</strong>
+                        </div>
+                    </div>
+                    <p class="text-success text-center">you have saved 4555/-</p>
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-outline-primary">Left</button>
+                        <button type="button" class="btn btn-outline-primary">Middle</button>
+                        <button type="button" class="btn btn-outline-primary">Right</button>
+                    </div>
+                </div>
+            </div>
+            <!-- bill start -->
+            <div class="card mt-3">
+                <div class="card-body">
+                    <p class="text-primary">I Have Coupon</p>
+                    <div class="d-flex justify-content-between">
+                        <span>Price</span>
+                        <strong>78,800</strong>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span>GST</span>
+                        <strong>7,547</strong>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>Total</span>
+                        <strong>78,547</strong>
+                    </div>
+                </div>
+            </div>
+            <!-- bill end -->
+        </div>
+    </div>
+    <!-- cart end -->
+
+    <!-- login start -->
+    <div class="offcanvas offcanvas-start" id="login">
+        <div class="offcanvas-header bg-primary text-light">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <div>
+                        <label for="email" class="form-label">First Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <div class="mt-2">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 mt-3">
+                        Login
+                    </button>
+                    <p class="text-center mt-3">
+                        Dont Have Account? <a href="#">Create Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
